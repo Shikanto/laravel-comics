@@ -1,0 +1,11 @@
+.div-main {
+    background-color: $bg-dark;
+  
+    .jumbotron {
+      padding: ($padding-containers-y * 2) $padding-containers-x;
+      background-image: url("/img/jumbotron.jpg");
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+}

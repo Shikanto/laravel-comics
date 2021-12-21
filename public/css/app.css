@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-header {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 0px;
+  text-align: end;
+}
+
+.top-header h4 {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+
+.navbar .ul-header {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar .ul-header li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+}
+
+.navbar .ul-header .active {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+
+.navbar .search-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.navbar .search {
+  border: none;
+  border-bottom: 3px solid #0282f9;
+  text-align: end;
+  color: black;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.navbar button {
+  border: none;
+  background-color: white;
+  border-bottom: 3px solid #0282f9;
+  margin-left: -5px;
+}
+
+.top-footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bot-footer {
+  background-color: #333333;
+  padding: 30px 15px;
+}
+
+.bot-footer .sign-up {
+  border: 4px solid #0282f9;
+  padding: 20px;
+}
+
+.bot-footer .sign-up a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bot-footer h2 {
+  color: #0282f9;
+  margin-right: 20px;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-us img {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+}
+
+.container-footer {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-container {
+  width: 40%;
+}
+
+.list-footer {
+  display: flex;
+  padding: 30px 15px;
+}
+
+.col-list {
+  width: 33.3333333333%;
+}
+
+.col-list h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.jumbo-logo-footer {
+  width: 40%;
+  background-image: url("/img/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  color: white;
+}
+
+.ul-footer {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ul-footer li {
+  margin: 4px 0;
+}
+
+.ul-footer li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.div-main {
+  background-color: black;
+}
+
+.div-main .jumbotron {
+  padding: 60px 15px;
+  background-image: url("/img/jumbotron.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
