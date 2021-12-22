@@ -230,3 +230,39 @@
   margin-top: 20px;
 }
 
+.section-nav-blue {
+  background-color: #0282f9;
+  color: white;
+}
+
+.container-blue-nav {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.blu-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 15px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  width: 100px;
+  height: 85px;
+  padding: 0 15px;
+}
+
+.card h4 {
+  font-size: 0.9rem;
+}
+
+.card:last-of-type img {
+  width: 120px;
+}
+

@@ -1,0 +1,38 @@
+.section-nav-blue {
+    background-color: $color-dc-blue;
+    color: white;
+}
+  
+.container-blue-nav {
+    margin: 0 auto;
+    width: $w-75;
+}
+  
+.blu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: ($padding-containers-y * 2) $padding-containers-x;
+}
+  
+.card {
+    display: flex;
+    align-items: center;
+    
+    img {
+      
+      width: 100px;
+      height: 85px;
+      padding: 0 $padding-containers-x;
+    }
+  
+    
+  
+    h4{
+      font-size: 0.9rem;
+    }
+}
+  
+.card:last-of-type img{
+      width: 120px;
+}

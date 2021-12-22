@@ -23,7 +23,7 @@ function checkTitle($titleComic){
 
 @section('page_title', 'Homepage DC comics')
 
-@section('content')
+@section('hero-content')
 <div class="container-series">
     <div class="series">
       <h1>CURRENT SERIES</h1>
@@ -41,5 +41,6 @@ function checkTitle($titleComic){
     </div>
   </div>
 </div>
+@include("partials/fast_nav_blue")
 @endsection
-    
+
