@@ -164,6 +164,17 @@
   text-decoration: none;
 }
 
+.content-cookies {
+  color: grey;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.content-cookies a {
+  text-decoration: none;
+  color: #0282f9;
+}
+
 .div-main {
   background-color: black;
 }

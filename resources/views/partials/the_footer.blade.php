@@ -181,6 +181,11 @@
               </ul>
             </div>
           </div>
+          <div class="content-cookies">
+            <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. <br> All rights reserved.
+            <br><a href="">Cookies Settings</a>
+            </p>
+          </div>
         </div>
         <div class="jumbo-logo-footer">
           <h1></h1>
