@@ -16,7 +16,7 @@
   margin-left: 60px;
 }
 
-.container {
+.container-header {
   margin: 0 auto;
   width: 75%;
 }
@@ -55,7 +55,7 @@
 
 .navbar .search-container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -109,7 +109,7 @@
   align-items: center;
 }
 
-.follow-us img {
+.follow-us .img-footer {
   width: 50px;
   height: 50px;
   margin: 0 20px;
@@ -138,6 +138,7 @@
 .col-list h2 {
   margin-top: 20px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .jumbo-logo-footer {
@@ -145,10 +146,6 @@
   background-image: url("/img/dc-logo-bg.png");
   background-size: cover;
   background-position: center;
-}
-
-h2 {
-  color: white;
 }
 
 .ul-footer {
@@ -177,5 +174,59 @@ h2 {
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container-series {
+  margin: 0 auto;
+  width: 75%;
+  position: relative;
+}
+
+.container-series .series {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.loadBtn {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.loadBtn a {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 60px;
+  font-size: 1.5rem;
+}
+
+.card-comics-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 30px 0;
+}
+
+.card-comics-container .card-comics {
+  flex-basis: calc(16.6666666667% - 20px);
+}
+
+.card-comics-container .card-comics img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  height: 55%;
+}
+
+.card-comics-container .card-comics .title-comics {
+  color: white;
+  font-size: 1rem;
+  margin-top: 20px;
 }
 

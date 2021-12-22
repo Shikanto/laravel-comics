@@ -11,7 +11,7 @@
 }
 
 
-.container {
+.container-header {
     margin: 0 auto;
     width: $w-75;
   }
@@ -49,7 +49,7 @@
 
     .search-container{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         
 

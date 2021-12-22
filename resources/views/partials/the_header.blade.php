@@ -46,12 +46,12 @@
 
 <header>
 <div class="top-header">
-  <div class="container">
+  <div class="container-header">
     <h4>DC POWER VISA </h4>
     <h4>ADDICTIONAL DC SITES </h4>
   </div>
 </div>
-  <div class="container">
+  <div class="container-header">
     <div class="navbar">
       <img src="{{asset('img/dc-logo.png')}}" alt="DC logo" />
       <div class="nav-links" >

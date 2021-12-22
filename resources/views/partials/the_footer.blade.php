@@ -198,7 +198,7 @@
           </div>
           @foreach ($list_social as $link_social)
           <div>
-            <img src="{{$link_social['url_img']}}" alt="" />
+            <img class="img-footer" src="{{$link_social['url_img']}}" alt="" />
           </div>
           @endforeach
           

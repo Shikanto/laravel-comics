@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.index');
+    $dati_comics = config("comics");
+    //var_dump($dati_comics);
+   /*  foreach ($dati_comics as $value) {
+      var_dump($value['title']);
+    } */
+    return view('home.index', compact('dati_comics'));
 })->name("home.index");
 
 Route::get("/products", function(){
