@@ -1,0 +1,24 @@
+.shell-nav-products{
+    background-color: $background-nav-products;
+
+
+    .nav-products{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        gap: 10px;
+        border-right: 1px grey solid;
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% / 4);
+            border-left: 1px grey solid;
+            font-size: 0.6rem;
+            padding: 10px;
+            
+        }
+    }
+}

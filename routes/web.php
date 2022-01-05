@@ -20,6 +20,7 @@ Route::get('/', function () {
       var_dump($value['title']);
     } */
     return view('home.index', compact('dati_comics'));
+    //"lista_comics" => $dati_comics invece di compact('dati_comics')
 })->name("home.index");
 
 Route::get("/products", function(){

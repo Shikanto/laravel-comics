@@ -12,7 +12,8 @@
     @include("partials.the_header")
 
     @include('partials.hero')
-
+    @yield('main-content')
+       
     @include("partials.the_footer")
 </body>
 </html>

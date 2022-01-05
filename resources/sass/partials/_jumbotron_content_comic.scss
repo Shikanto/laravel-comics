@@ -1,0 +1,19 @@
+.blue-space-jumbotron{
+    background-color: $color-dc-blue;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container-img-product{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+
+    img{
+        position: absolute;
+        transform: translateY(-70%)
+    }
+}
