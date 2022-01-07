@@ -61,6 +61,7 @@
             <a href="#{{-- {{route($link['route_name'])}} --}}">{{$link['text']}}</a>
           </li>
           @endforeach
+          <li class="shop-sort-down"><i class="fas fa-sort-down"></i></li>
     
         </ul>
       </div>

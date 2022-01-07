@@ -31,8 +31,10 @@ function checkTitle($titleComic){
     <div class="card-comics-container" >
         @foreach ($dati_comics as $info_comic)
         <div class="card-comics">
-            <img src="{{$info_comic['thumb']}}" alt="{{$info_comic['title']}}" />
-            <h4 class="title-comics">{{strtoupper(checkTitle($info_comic['title']))}}</h4>
+            <a href="{{ route('products.index', ["id" => $loop -> index]) }}">
+              <img src="{{$info_comic['thumb']}}" alt="{{$info_comic['title']}}" />
+              <h4 class="title-comics">{{strtoupper(checkTitle($info_comic['title']))}}</h4>
+            </a>
         </div>
         @endforeach
       </div>

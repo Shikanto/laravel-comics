@@ -6,7 +6,7 @@
 
     <div class="blue-space-jumbotron">
         <div class="container-img-product">
-            <img src="{{asset('img/adv.jpg')}}" alt="">
+            <img src="{{asset($comic['thumb'])}}" alt="">
         </div>
     </div>
     

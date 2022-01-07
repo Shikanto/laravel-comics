@@ -23,7 +23,7 @@ Route::get('/', function () {
     //"lista_comics" => $dati_comics invece di compact('dati_comics')
 })->name("home.index");
 
-Route::get("/products", function(){
+/* Route::get("/comics", function(){
     $comics = config("comics");
     $dates_comics = [];
 
@@ -35,20 +35,22 @@ Route::get("/products", function(){
     } 
     //dump($dates_comics);
     return view("products.index", compact('dates_comics'));
-})->name("products.index");
+})->name("products.index"); */
 
-Route::get("/products/{id?}", function($id){
+Route::get("/comics/{id?}", function($id){
     $comics = config("comics");
     
     if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
         $info_comic = $comics[$id];
+        //dump($info_comic);
+        //dump($comics);
+        //dump($comics[$id]);
         return view("products.index", [
         "comic"=>$info_comic
         ]);
     } else{
         abort('404');
     }
-    //dump($dates_comics);
 
 })->name("products.index");
 

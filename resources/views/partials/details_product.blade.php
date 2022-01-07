@@ -1,22 +1,22 @@
 <section>
     <div class="container-product">
         <div class="details-comic">
-            <h1>PROVA TITOLO FUMETTO</h1>
+            <h1>{{$comic['title']}}</h1>
             <div class="container-price-availability">
                 <div class="price-availability">
                     <div class="price-comic">
-                        U.S. Price: <span>$19.99</span>
+                        U.S. Price: <span>{{$comic['price']}}</span>
                     </div>
                     <div class="availability-comic">
                         AVAILABLE
                     </div>
                 </div>
                 <div class="availability-check">
-                    Check availability {{-- mettere icona --}}
+                    Check availability  <i class="fas fa-sort-down"></i>
                 </div>
             </div>
             <div class="container-description-comic">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores illum repellendus tenetur. Minima fuga maxime excepturi, autem officia totam error pariatur itaque, magni laboriosam quod cupiditate soluta dolorum possimus magnam?
+               {{!! $comic['description'] !!}}
             </div>
         </div>
         <div class="advertsiment">
