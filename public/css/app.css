@@ -305,7 +305,7 @@
 }
 
 .container-img-product {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
 }
@@ -316,7 +316,7 @@
 }
 
 .container-product {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 60px 0;
   display: flex;
@@ -325,7 +325,7 @@
 }
 
 .container-product .details-comic {
-  width: 70%;
+  width: 75%;
 }
 
 .container-product .details-comic h1 {
@@ -379,10 +379,15 @@
 
 .advertsiment {
   margin-left: 40px;
+  width: 25%;
 }
 
-.advertsiment h3 {
+.advertsiment h5 {
   text-align: right;
+}
+
+.advertsiment img {
+  width: 100%;
 }
 
 .container-details-product {
@@ -394,7 +399,7 @@
 .container-details-product .info-details {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -457,7 +462,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   gap: 10px;
   border-right: 1px #c1c2c1 solid;

@@ -1,7 +1,7 @@
 <section>
     <div class="container-product">
         <div class="details-comic">
-            <h1>{{$comic['title']}}</h1>
+            <h1>{{strtoupper($comic['title'])}}</h1>
             <div class="container-price-availability">
                 <div class="price-availability">
                     <div class="price-comic">
@@ -16,14 +16,13 @@
                 </div>
             </div>
             <div class="container-description-comic">
-               {{!! $comic['description'] !!}}
+               {!! $comic['description'] !!}
             </div>
         </div>
         <div class="advertsiment">
-            <h3>ADVERTSIMENT</h3>
-            <div>
-                <img src="{{asset('img/adv.jpg')}}" alt="adv">
-            </div>
+            <h5>ADVERTISEMENT</h5>
+            <img src="{{asset('img/adv.jpg')}}" alt="adv">
+
         </div>
     </div>
 </section>

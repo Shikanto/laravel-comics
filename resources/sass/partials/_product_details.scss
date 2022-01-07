@@ -1,6 +1,6 @@
 
 .container-product{
-    width: 50%;
+    width: $width-comic-info;
     margin: 0 auto;
     padding: ($padding-containers-y * 2) 0;
     display: flex;
@@ -8,7 +8,7 @@
     background-color: white;
 
     .details-comic{
-        width: 70%;
+        width: 75%;
 
         h1{
             color: $color-detail-products-title;
@@ -63,8 +63,13 @@
 
 .advertsiment{
     margin-left: 40px;
+    width: 25%;
 
-    h3{
+    h5{
         text-align: right;
+    }
+
+    img{
+        width: 100%;
     }
 }
