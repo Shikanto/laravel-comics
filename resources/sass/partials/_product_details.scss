@@ -9,11 +9,15 @@
 
     .details-comic{
         width: 70%;
+
+        h1{
+            color: $color-detail-products-title;
+        }
     }
 
     .container-price-availability{
-        background-color: rgb(2, 155, 2);
-        color: lightgreen;
+        background-color: #55ba59;
+        color: #98f093;
         display: flex;
         justify-content: space-between;
         padding: 0 20px;
@@ -38,15 +42,19 @@
             border-left: 1px black solid;   
             width: 30%;
             color: white;
-            font-size: 1.1rem;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
+            padding-left: 10px;
+
+            i{
+                font-size: 10px;
+            }
         }
 
     }
     .container-description-comic{
-        margin-top: 15px;
+        margin-top: 25px;
         line-height: 20px;
         word-spacing: 2px;
         font-size: 1.1rem;

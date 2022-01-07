@@ -24,8 +24,32 @@ Route::get('/', function () {
 })->name("home.index");
 
 Route::get("/products", function(){
-    return view("products.index");
+    $comics = config("comics");
+    $dates_comics = [];
+
+    foreach($comics as $index => $comic) {
+        $comic["id"] = $index; // qui creiamo noi la chiavi id e gli assegniamo il valore dell'indice
+
+        $dates_comics[] = $comic;
+        
+    } 
+    //dump($dates_comics);
+    return view("products.index", compact('dates_comics'));
 })->name("products.index");
 
+Route::get("/products/{id?}", function($id){
+    $comics = config("comics");
+    
+    if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
+        $info_comic = $comics[$id];
+        return view("products.index", [
+        "comic"=>$info_comic
+        ]);
+    } else{
+        abort('404');
+    }
+    //dump($dates_comics);
+
+})->name("products.index");
 
 

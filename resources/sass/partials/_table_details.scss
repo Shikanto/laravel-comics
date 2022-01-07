@@ -1,7 +1,7 @@
 .container-details-product{ 
     background-color: $background-nav-products;
     padding-bottom: 120px;
-    border-bottom: 1px grey solid;
+    border-bottom: 1px $color-border-nav-products solid;
 
     .info-details{
         display: flex;
@@ -12,13 +12,16 @@
         .container{
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px black solid;
+            border-bottom: 1px $color-border-nav-products solid;
             padding: 20px 0;
 
             .artists, .writers {
                 width: 75%;
                 color: $color-dc-blue;
+            }
+
+            .comma{
+                color:black
             }
 
             h4{
@@ -28,7 +31,8 @@
 
         h2{
             padding: 30px 0;
-            border-bottom: 1px black solid;
+            border-bottom: 1px $color-border-nav-products solid;
+            color: $color-detail-products-title;
         }
 
         .talent-info, .specs-info{

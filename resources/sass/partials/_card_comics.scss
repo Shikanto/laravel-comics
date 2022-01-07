@@ -38,19 +38,22 @@
     .card-comics {
         flex-basis: calc(100% / 6 - $gap-comics);
       
-  
-        img {
-            width: 100%;
-            object-fit: cover;
-            object-position:top;
-            height: 55%;
-        }
+        a{
+            text-decoration: none;
 
-        .title-comics {
-            color: white;
-            font-size: 1rem;
-            margin-top:20px;
-        }
+            img {
+                width: 100%;
+                object-fit: cover;
+                object-position:top;
+                height: 55%;
+            }
+    
+            .title-comics {
+                color: white;
+                font-size: 1rem;
+                margin-top:20px;
+            }
+        }         
     }
 }
   

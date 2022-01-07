@@ -41,6 +41,22 @@
         display: inline-block;
         color: black;
       }
+
+      .shop-sort-down{
+        color: $color-dc-blue;
+        position: relative;
+        margin-left: -10px;
+
+        i{
+          position: absolute;
+          top:0;
+          left: 0;
+          transform: translateY(50%)        
+        }
+        
+    
+
+      }
       .active{
       color: $color-dc-blue;
       border-bottom: 3px solid $color-dc-blue;  
